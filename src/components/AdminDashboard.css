@@ -1,0 +1,48 @@
+.dashboard-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  
+}
+.input_field_s2{
+  margin: 5px;
+  width: 5em;
+  padding: 0.2em;
+  text-align: center;
+}
+.amount_value{
+  display: inline-flex;
+  margin: 2px;
+
+}
+
+.song-request-form{
+  flex-direction: row;
+
+}
+.graph-container{
+  border: 2px solid red;
+  max-width: 50%;
+  margin: 0 auto;
+  background-color: aliceblue;
+  margin-bottom: 20px;
+}
+.save_btn{
+ 
+ width: 45em;
+ height: 40px;
+ color: rgb(227, 235, 242);
+ border-radius: 5px;
+ background: #6741D9;
+ margin-top:10px;
+}
+.save_btn:hover:active{
+  width: 45em;
+  height: 40px;
+  color: rgb(2, 7, 11);
+  border-radius: 5px;
+  background: #cfc0fb;
+  margin-top:10px;
+ }
